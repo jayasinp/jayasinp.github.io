@@ -1,0 +1,11 @@
+{
+    "coding": [
+        "title": "How I Built This Site",
+        "badges": ["WebDev", "Bootstrap"],
+        "description": "A brief overview of how this site was coded and hosted.",
+        "link": "howibuiltthissite.html",
+        "buttonText": "⇾ Check It Out",
+        "borderClass": "border-success",
+        "backgroundClass": "bg-custom-success"
+    ]
+}

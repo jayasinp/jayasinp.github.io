@@ -1,0 +1,11 @@
+.correct {
+    color: black;
+}
+
+.incorrect {
+    color: red;
+}
+
+.remaining {
+    color: lightgrey;
+}

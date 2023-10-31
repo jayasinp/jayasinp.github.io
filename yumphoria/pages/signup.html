@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Yumphoria</title>
+    <meta name="Author" content="PMJ">
+    <meta name="Keywords" content="Cook, Recipe, Share, Family">
+    <meta name="Description" content="Cooking website for sharing recipes">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://indestructibletype.com/fonts/Jost.css" type="text/css" charset="utf-8" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="../styles/global.css">
+    <link rel="stylesheet" href="../styles/signup.css">
+    <link rel="icon" href="../images/favicon.ico" type="image/x-icon" />
+</head>
+
+<body>
+    <section>
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-12">
+                    <a href="../index.html" class="btn btn-outline-dark mt-3"><i class="fas fa-arrow-left me-2"></i>
+                        Back</a>
+                </div>
+            </div>
+    </section>
+
+    <section class="login-page mt-5">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-6 col-md-8">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Sign Up</h5>
+                            <form>
+                                <div class="mb-3">
+                                    <label for="name" class="form-label">Name</label>
+                                    <input type="text" class="form-control" id="name" placeholder="Enter your name">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="email" class="form-label">Email address</label>
+                                    <input type="email" class="form-control" id="email" placeholder="Enter your email">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="password" class="form-label">Password</label>
+                                    <input type="password" class="form-control" id="password"
+                                        placeholder="Enter your password">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="confirm-password" class="form-label">Confirm Password</label>
+                                    <input type="password" class="form-control" id="confirm-password"
+                                        placeholder="Confirm your password">
+                                </div>
+
+                                <hr>
+
+                                <h6 class="text-center">Choose your package</h6>
+                                <div class="row">
+                                    <div class="col-sm-4">
+                                        <div class="card border-success" data-bs-toggle="tooltip" data-bs-placement="top" title="Enjoy limited access for free.">
+                                            <div class="card-body">
+                                                <input class="form-check-input" type="radio" name="subscriptionOptions" id="freePackage">
+                                                <label class="form-check-label" for="freePackage">
+                                                    Free
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-4">
+                                        <div class="card border-primary" data-bs-toggle="tooltip" data-bs-placement="top" title="Unlimited access for $9.99 per month.">
+                                            <div class="card-body">
+                                                <input class="form-check-input" type="radio" name="subscriptionOptions" id="monthlySubscription">
+                                                <label class="form-check-label" for="monthlySubscription">
+                                                    Monthly ($9.99/month)
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-4">
+                                        <div class="card border-warning" data-bs-toggle="tooltip" data-bs-placement="top" title="Unlimited access for $99.99 per year.">
+                                            <div class="card-body">
+                                                <input class="form-check-input" type="radio" name="subscriptionOptions" id="annualSubscription">
+                                                <label class="form-check-label" for="annualSubscription">
+                                                    Annual ($99.99/year)
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+
+                                <button type="submit" class="btn btn-primary w-100 mt-3">Sign Up</button>
+                            </form>
+                            <hr>
+                            <p class="text-center">Or sign up with</p>
+                            <div class="d-grid gap-2">
+                                <button class="btn btn-outline-primary"><i class="fab fa-google me-2"></i> Sign up with
+                                    Google</button>
+                                <button class="btn btn-outline-dark"><i class="fab fa-apple me-2"></i> Sign up with
+                                    Apple</button>
+                                <button class="btn btn-outline-primary"><i class="fab fa-linkedin me-2"></i> Sign up
+                                    with LinkedIn</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+        <script src="/scripts/signuptooltips.js"></script>
+</body>
+
+</html>

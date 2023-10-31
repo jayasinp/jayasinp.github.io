@@ -1,0 +1,7 @@
+.hero {
+    background-image: url('images/index_hero.png');
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
